@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    -name: Install Databricks-CLI
-     uses: ./
+    - name: Code checkout
+      uses: actions/checkout@v2
 
+    - name: Install Databricks-CLI
+      uses: ./
