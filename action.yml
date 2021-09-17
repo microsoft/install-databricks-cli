@@ -1,0 +1,9 @@
+name: 'install-databricks-cli'
+description: 'Installs the Databricks command-line interface (CLI)'
+
+runs:
+  using: "composite"
+  steps:
+      run: | 
+        python -m pip install databricks-cli
+      shell: bash

@@ -1,0 +1,17 @@
+name: Deploy
+
+on:
+  push:
+    paths:
+      - "action.yml"
+      - ".github/workflows/cd.yml"
+
+jobs:
+  test:
+    name: Test Databricks-CLI Install
+    runs-on: ubuntu-latest
+
+    steps:
+    -name: Install Databricks-CLI
+     uses: ./
+
