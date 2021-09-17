@@ -1,4 +1,4 @@
-# Databricks CLI Install Action
+# Databricks CLI Install Action [![Build](https://github.com/microsoft/install-databricks-cli/actions/workflows/cd.yml/badge.svg)](https://github.com/microsoft/install-databricks-cli/actions/workflows/cd.yml)
 
 GitHub Action that installs the Databrics CLI.
 
