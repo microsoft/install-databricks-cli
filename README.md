@@ -18,7 +18,7 @@ If your GitHub Actions workflows are running on a [self-hosted runner](https://d
 
 ```yml
 steps:
-    - name: Install Databricks-CLI
+    - name: install-databricks-cli
       uses: microsoft/install-databricks-cli@v1.0.0
 ```
 
